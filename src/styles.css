@@ -1,0 +1,70 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #23272f;
+	color: #61dafb; /* Ubah warna teks menjadi biru muda */
+	font-family: "Arial", sans-serif; /* Ganti font jika perlu */
+}
+
+.square {
+	color: currentColor;
+	font-size: 2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #61dafb; /* Ubah warna border menjadi biru muda */
+	background-color: #282c34; /* Warna latar belakang kotak */
+	cursor: pointer;
+	transition: background-color 0.1s; /* Efek transisi ketika dihover */
+}
+
+.square:hover {
+	background-color: #61dafb; /* Warna latar belakang ketika dihover */
+	color: #282c34; /* Warna teks ketika dihover */
+}
+
+.board {
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 100px 100px 100px;
+	cursor: pointer;
+	position: relative;
+	margin: 20px;
+}
+
+.status {
+	text-align: center;
+	font-weight: bold;
+	margin: 20px;
+	color: #61dafb; /* Ubah warna teks status menjadi biru muda */
+}
+
+.game-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.game-info ol {
+	list-style-type: none;
+	padding: 0;
+}
+
+.game-info li {
+	margin: 5px;
+}
+
+.game-info button {
+	background: none;
+	border: none;
+	color: #61dafb; /* Ubah warna teks button menjadi biru muda */
+	cursor: pointer;
+	text-decoration: underline;
+	font-size: 1em;
+	transition: color 0.3s; /* Efek transisi ketika dihover */
+}
+
+.game-info button:hover {
+	color: white; /* Warna teks button ketika dihover */
+}
