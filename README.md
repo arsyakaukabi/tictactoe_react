@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
+# Tic Tac Toe Game - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a simple Tic Tac Toe game built with React.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Description](#description)
+- [How to Use](#how-to-use)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Expanding the ESLint configuration
+## Description
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This React application implements the classic Tic Tac Toe game. It includes a game board, player turns, a status display, and a move history log. The project is a great starting point for understanding React fundamentals and state management in a simple interactive application.
 
-- Configure the top-level `parserOptions` property like this:
+## How to Use
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. **Clone the Repository:**
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```bash
+   git clone https://github.com/arsyakaukabi/tictactoe_react.git
+
+   cd tictactoe_react
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Run the Application:**
+   ```bash
+   npm run dev
+   ```
+4. **Play the Game:**
+
+   Open the provided URL in your web browser and start playing Tic Tac Toe. Click on the squares to make your moves, and use the game history to revisit previous moves.
+
+## Features
+
+Single-player Tic Tac Toe game.
+Game status display indicating the winner or the next player.
+History log to navigate through previous moves.
+Stylish UI with responsive design.
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests to improve the application.
