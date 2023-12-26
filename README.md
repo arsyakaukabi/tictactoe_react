@@ -8,7 +8,6 @@ This repository contains a simple Tic Tac Toe game built with React.
 - [How to Use](#how-to-use)
 - [Features](#features)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Description
 
